@@ -13,7 +13,7 @@ build:
   skip: True  # [win]
   # cannot be noarch due to use of scripts kwargs in setup.py
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
